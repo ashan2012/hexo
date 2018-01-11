@@ -4,7 +4,7 @@ date: 2018-01-18
 layout: post
 permalink: /blog/2018/01/18/paper_read_dae_for_article_represention.html
 categories: 论文阅读
-tags: [推荐系统,embeding,dae]
+tags: [推荐系统,embeding,dae,文章去重，文本相似性]
 excerpt: 雅虎日本新闻团队使用文章向量化表示用来做文章去重
 
 ---
@@ -45,11 +45,18 @@ excerpt: 雅虎日本新闻团队使用文章向量化表示用来做文章去�
 提升比较明显，depth明显增加，点击率增加，证明了推荐更加多样性，吸引了用户的兴趣
 
 
-
-
 ###参数设置
 训练文本为400K文本(2015年3月)，词频排序前10万，去掉停用词。然后中间表示向量为 500维，输入向量为10万维，值为0,1.
 
 ###其他解决方案对比
 ###参考文献
+[1] Q. Le and T. Mikolov. Distributed representations of
+sentences and documents. In ICML, 2014.
+
+[2] P. Li and C. König. b-bit minwise hashing. In WWW,
+2010.
+
+[3] P. Vincent, H. Larochelle, Y. Bengio, and P.-A.
+Manzagol. Extracting and composing robust features
+with denoising autoencoders. In ICML, 2008
 
