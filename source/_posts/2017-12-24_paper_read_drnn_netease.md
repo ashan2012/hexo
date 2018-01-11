@@ -1,6 +1,5 @@
 ---
-title: 论文阅读：Personal Recommendation Using Deep Recurrent
-Neural Networks in NetEase
+title: 论文阅读 Personal Recommendation Using Deep Recurrent Neural Networks in NetEase
 date: 2017-12-24
 layout: post
 permalink: /blog/2017/12/24/paper_read_personal_rec_with_drnn.html
